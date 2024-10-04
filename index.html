@@ -3,58 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>IR Trading Spot - قريباً</title>
+    <title>صفحة المنشورات</title>
     <style>
         body {
-            background-color: #0088cc; /* لون تيليجرام */
-            color: white;
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
+            background-color: #0088cc; /* لون خلفية مشابه لتلجرام */
             margin: 0;
             padding: 0;
+            direction: rtl;
+        }
+        .header {
             display: flex;
-            justify-content: center;
             align-items: center;
-            height: 100vh;
-            text-align: center;
+            justify-content: center;
+            margin: 20px 0;
         }
-
-        .coming-soon {
+        .header img {
+            width: 50px; /* عرض الشعار */
+            height: 50px; /* ارتفاع الشعار */
+            margin-left: 10px;
+            border-radius: 8px; /* زوايا مستديرة للشعار */
+        }
+        .header .channel-name {
+            font-size: 24px; /* حجم الخط لاسم القناة */
+            font-weight: bold;
+            color: #fff; /* لون النص */
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5); /* خلفية مستطيلة نصف شفافة */
+            border-radius: 5px; /* زوايا مستديرة للمستطيل */
+        }
+        .container {
             max-width: 600px;
-            padding: 20px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .post {
+            background-color: #fff;
             border-radius: 10px;
-            background-color: rgba(255, 255, 255, 0.2);
-            box-sizing: border-box;
-            width: 90%;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 15px;
         }
-
-        h1 {
-            font-size: 2.5em;
-            margin: 0;
-            padding: 0;
-            color: #ffffff;
+        .post img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16/9; /* Aspect ratio for YouTube-like video size */
+            border-radius: 8px;
         }
-
-        p {
-            font-size: 1.2em;
-            margin-top: 15px;
-            color: #f0f0f0;
+        .post .post-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
         }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2em;
-            }
-            p {
-                font-size: 1em;
-            }
+        .post .post-header img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+        .post .post-header .name {
+            font-weight: bold;
+            color: #333;
+        }
+        .post .post-content {
+            margin-top: 10px;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <div class="coming-soon">
-        <h1>IR Trading Spot</h1>
-        <p>قسم أخبار العملات الرقمية سيتم إطلاقه قريباً. تابعنا للمزيد من المعلومات!</p>
+
+<div class="header">
+    <img src="https://i.suar.me/q4wMl/l" alt="شعار القناة"> <!-- شعار القناة -->
+    <div class="channel-name">RI Trading Spot</div>
+</div>
+
+<div class="container">
+    <!-- Post 1 -->
+    <div class="post">
+        <div class="post-header">
+            <img src="https://i.suar.me/q4wMl/l" alt="صورة الملف الشخصي">
+            <div class="name">RI Trading Spot</div>
+        </div>
+        <img src="https://i.suar.me/8GnGn/l" alt="صورة المنشور">
+        <div class="post-content">
+            تحديث البيتكوين:<br><br>
+            للاسف بعدما كانت معظم المؤشرات تحسنت في البيتكوين و العملات<br><br>
+            جاء اول مؤشر ايجابي بعد اختراق 65000$ ثم بدأت حرب ايران علي اسرائيل حصل هبوط عنيف و نزل كل السوق سواء بيتكوين او عملات اسفل اهم مستوي دعم<br><br>
+            الخلاصة:<br>
+            المراقبة مطلوبة و عدم التسرع , اختراق 65000$ مرة اخري سيعود السوق بقوة.
+        </div>
     </div>
+
+    <!-- Post 2 -->
+    <div class="post">
+        <div class="post-header">
+            <img src="https://i.suar.me/q4wMl/l" alt="صورة الملف الشخصي">
+            <div class="name">RI Trading Spot</div>
+        </div>
+        <img src="https://i.suar.me/3GPGn/l" alt="صورة المنشور">
+        <div class="post-content">
+            تحديث البيتكوين:<br><br>
+            كما وضحت منذ يومين ان التصحيح الحالي يعتبر صحي جدا للسوق<br><br>
+            العملات قد اقتربت من دعوم قوية و تتجدد فرص الشراء للعملات<br><br>
+            يعود الانطلاق من جديد اذا اخترق البيتكوين مقاومة 65000$ مرة اخري.
+        </div>
+    </div>
+
+    <!-- Post 3 -->
+    <div class="post">
+        <div class="post-header">
+            <img src="https://i.suar.me/q4wMl/l" alt="صورة الملف الشخصي">
+            <div class="name">RI Trading Spot</div>
+        </div>
+        <img src="https://i.suar.me/rZwZl/l" alt="صورة المنشور">
+        <div class="post-content">
+            تحديث البيتكوين:<br><br>
+            الحمدلله السوق منطلق بعد ما نبهت بالشراء<br><br>
+            حاليا وضع البيتكوين جيد ولكن مع اختراق مقاومة 65000$ سنري انطلاق للسوق بالكامل من ثم اختراق 70000$ سنري انفجار تاريخي و موسم صعود حقيقي للسوق.
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
